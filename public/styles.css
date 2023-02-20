@@ -1,0 +1,52 @@
+.grid {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+  gap: 4px;
+  height: 98vh;
+  display: grid;
+}
+
+.section {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+header, aside, article, footer {
+  border-style: solid;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+  
+}
+
+aside {
+  background: #db9bdc;
+}
+
+article {
+  background: #fdfdfd;    
+}
+
+header, footer {
+  grid-column: 1 / 4;
+  background: #a798fc;    
+}
+
+body {
+  font-family: Copperplate;
+}
+
+button {
+  font-size: 14px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
